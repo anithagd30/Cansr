@@ -26,12 +26,6 @@ forgotpassword.click()
 email=browser.find_element_by_xpath("//input[@id='inp_emailid']")
 email.send_keys('morgan78@yopmail.com')
 
-cont.click=browser.find_element_by_xpath("//button[contains(text(),'Continue')]").click()
-
-if (browser.email=="email.send_keys"):
-    (cont.click) 
-else:
-    (browser.forgotemail==browser.find_element_by_xpath("//a[contains(text(),'Forgot Email')]").click()
-    
+button_click=browser.find_element_by_xpath("//button[contains(text(),'Continue')]").click()  
 
 
