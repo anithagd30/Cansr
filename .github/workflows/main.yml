@@ -1,0 +1,12 @@
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  test:
+    name: running test for login 
+    runs-on: ubuntu-latest
+    steps:
+       - uses: actions/checkout@v2
+       - run: |
+              pip install -r Cansr\requirements.txt
+              cd Cansr
+              pytest 02_login details.py
