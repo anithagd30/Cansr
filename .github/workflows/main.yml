@@ -9,4 +9,4 @@ jobs:
        - run: |
               pip install -r Cansr\requirements.txt
               cd Cansr
-              pytest 02_login details.py
+              python 03_forgotpassword.py
